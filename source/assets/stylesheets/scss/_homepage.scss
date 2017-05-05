@@ -41,7 +41,7 @@
 	}
 
 	.caption {
-		color: #fff;
+		color: #ffffff;
 		font-family: 'URWGeometric-Heavy';
 		font-size: 150px;
 		text-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
@@ -66,31 +66,13 @@
 
 	.subcaption {
 		color: #fff;
-		font-size: 15px;
 		font-weight: 300;
 		display: inline-block;
-		text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
-		padding: 0px 20px;
-
-		@media (min-width:$screen-tablet) {
-			font-size: 21px;
-			padding: 10px 20px;
-			width: 92%;
-			line-height: 27px;
-		}
-
-		@media (min-width:$screen-desktop) {
-			font-size: 25px;
-			line-height: 31px;
-			width: 85%;
-		}
-
-		@media (min-width:$screen-lg-desktop) {
-			font-size: 32px;
-			line-height: 38px;
-			width: 92%;
-		}
-
+		text-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+		padding: 0px 20px 0px 0px;
+		font-size: 34px;
+		line-height: 110%;
+		width: 92%;
 	}
 
 }
@@ -105,6 +87,8 @@
 	}
 
 }
+
+//Everything is absolutely positioned! This defeats the purpose of responsive design.
 
 .btn-download {
 	margin: 10px auto 0;
@@ -144,40 +128,40 @@
 	border-radius: 3px;
 }
 
-.bigtxt {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 26px;
-	width: 100%;
-	margin: 0px auto;
-	text-align: center;
-	// background: #f5f5f5;
-	// color: #333333;
-	padding: 20px 10%;
-	color: $heading;
+// .bigtxt {
+// 	font-size: 18px;
+// 	font-weight: 400;
+// 	line-height: 26px;
+// 	width: 100%;
+// 	margin: 0px auto;
+// 	text-align: center;
+// 	// background: #f5f5f5;
+// 	// color: #333333;
+// 	padding: 20px 10%;
+// 	color: $heading;
 
-	@media (min-width:$screen-tablet) {
-		margin: 0 auto 30px auto;
-		padding: 30px 5%;
-		font-size: 25px;
-		line-height: 34px;
-		max-width: 100%;
-	}
+// 	@media (min-width:$screen-tablet) {
+// 		margin: 0 auto 30px auto;
+// 		padding: 30px 5%;
+// 		font-size: 25px;
+// 		line-height: 34px;
+// 		max-width: 100%;
+// 	}
 
-	@media (min-width:$screen-desktop) {
-		padding: 30px 10%;
-	}
+// 	@media (min-width:$screen-desktop) {
+// 		padding: 30px 10%;
+// 	}
 
-	@media (min-width:$screen-lg-desktop) {
-		line-height: 45px;
-		margin: 0 auto 30px auto;
-		padding: 50px 15%;
-		font-size: 32px;
-		max-width: 90%;
-		// background: transparent;
-	}
+// 	@media (min-width:$screen-lg-desktop) {
+// 		line-height: 45px;
+// 		margin: 0 auto 30px auto;
+// 		padding: 50px 15%;
+// 		font-size: 32px;
+// 		max-width: 90%;
+// 		// background: transparent;
+// 	}
 
-}
+// }
 
 .main-features {
 	figure {
